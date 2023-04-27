@@ -13,6 +13,8 @@ wakaru  =    わかる     : u308f | u304b | u308b // For output
 ikuyo   =    いくよ     : u3044 | u304f | u3088 // For input
 kita    =    きた       : u304d | u305f         // Open Bracket
 gita    =    ぎた       : u304e | u305f         // Close Bracket
+chinpo  =    ちんぽ     : u3061 | u3093 | u307d // Increment Data Pointer
+tsundere =   つんでれ    : u3064 | u3093 | u3067 | u308c // Decrement Data Pointer
 */
 
 // Parses input string from a bocchifuck programm to a brainfuck programm and returns it
@@ -38,6 +40,18 @@ pub fn bocchifuck(programm: &str) -> String {
                         index += 1;
                     }
                 },
+                'ち' => {
+                    if trim.chars().nth(index + 1).unwrap() == 'ん' && trim.chars().nth(index + 2).unwrap() == 'ぽ' {
+                        output.push('>');
+                        index += 2;
+                    }
+                },
+                'つ' => {
+                    if trim.chars().nth(index + 1).unwrap() == 'ん' && trim.chars().nth(index + 2).unwrap() == 'で' && trim.chars().nth(index + 3).unwrap() == 'れ' {
+                        output.push('<');
+                        index += 3;
+                    }
+                }
                 'わ' => {
                     if trim.chars().nth(index + 1).unwrap() == 'か' && trim.chars().nth(index + 2).unwrap() == 'る' {
                         output.push('.');
