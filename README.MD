@@ -44,3 +44,8 @@ Hello World in BocchiTheFuck
 ちんぽちんぽぼちわかる
 ちんぽぼちぼちわかる
 ```
+
+This should give you this output:
+```
+Hello World!
+```
