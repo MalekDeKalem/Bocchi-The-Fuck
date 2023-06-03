@@ -12,16 +12,16 @@
 It is an esoteric programming language similar to "Brainfuck" anoter esoteric programming language. Brainfuck consists of 8 symbols,
 Bocchi the fuck on the other hand has 8 japanese phrases/words (written in hiragana) that are a reference from the popular Anime "Bocchi the Rock". 
 
-| Bocchi-The-Fuck | Brainfuck | Function |
-| --------------- | --------- | -------- |
-| ぼち | + | Increments value |
-| ごと | - | Decrements value |
-| わかる | . | Outputs value |
-| いくよ | , | Expect Input |
-| きた | [ | is kind of like beginning of a while loop |
-| ぎた | ] | is kind of like ending of while loop |
-| ちんぽ | > | Increments Pointer |
-| つんでれ | < | Decrements Pointer |
+| Bocchi-The-Fuck | Romanji | Brainfuck | Function |
+| --------------- | ------- | --------- | -------- |
+| ぼち | Bocchi | + | Increments value |
+| ごと | Gotoh | - | Decrements value |
+| わかる | Wakaru | . | Outputs value |
+| いくよ | Ikuyo | , | Expect Input |
+| きた | Kita | [ | is kind of like beginning of a while loop |
+| ぎた | Gita | ] | is kind of like ending of while loop |
+| ちんぽ | Chinpo | > | Increments Pointer |
+| つんでれ | Tsundere | < | Decrements Pointer |
 
 Hello World in BocchiTheFuck
 
