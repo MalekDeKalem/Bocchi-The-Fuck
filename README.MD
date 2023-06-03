@@ -12,7 +12,7 @@
 It is an esoteric programming language similar to "Brainfuck" anoter esoteric programming language. Brainfuck consists of 8 symbols,
 Bocchi the fuck on the other hand has 8 japanese phrases/words (written in hiragana) that are a reference from the popular Anime "Bocchi the Rock". 
 
-| Bocchi-The-Fuck | Romanji | Brainfuck | Function |
+| Bocchi-The-Fuck | Romaji | Brainfuck | Function |
 | --------------- | ------- | --------- | -------- |
 | ぼち | Bocchi | + | Increments value |
 | ごと | Gotoh | - | Decrements value |
