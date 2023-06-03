@@ -8,7 +8,7 @@
 - run  ```wasm-pack build --target web``` to build our wasm project
 - now you are ready to open the project in a browser using a localserver (I used a vscode extension called "Live Server for that")
 
-# What is Bocchi the fuck?
+# What is Bocchi-The-Fuck?
 It is an esoteric programming language similar to "Brainfuck" anoter esoteric programming language. Brainfuck consists of 8 symbols,
 Bocchi the fuck on the other hand has 8 japanese phrases/words (written in hiragana) that are a reference from the popular Anime "Bocchi the Rock". 
 
