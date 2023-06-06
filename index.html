@@ -24,10 +24,11 @@
       import init, { greet, bocchifuck } from "./pkg/bocchi_the_fuck.js";
       const compile = () => {
         let code = document.getElementById("bocchi-code").value;
+        let programresult = bocchifuck(code);
+        document.getElementById("output").value = programresult;
         console.log(bocchifuck(code));
       }
       init().then(() => {
-        console.log(bocchifuck("ぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちぼちわかる"));
         document.getElementById("run-btn").addEventListener("click", compile, false);
       });
     </script>
@@ -47,6 +48,10 @@
       <div class="pt-auto mt-3 ">
         <button class="btn btn-primary mt-10" id="run-btn"> RUN </button>
       </div> 
+      <h3 class="pt-auto mt-5"> Output: </h3>
+      <div class="pt-auto mt-3">
+        <input id="output" type="text" name="output" readonly="readonly"/>
+      </div>
     </div>
   </body>
 </html>
